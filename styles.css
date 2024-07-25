@@ -1,0 +1,27 @@
+html{
+    background-color: #35654d;
+    font-size: 16px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    padding: 25px;
+    font-size: 3em;
+}
+
+.player1UI, .player2UI{
+    border: 2px solid black;
+    height: 300px;
+    text-align: center;
+}
+.draw-cards{
+    margin: 50px;
+    padding: 15px;
+    border-radius: 10%;
+    
+}
+img{
+    height: 200px;
+    margin: 0 25px;
+}
