@@ -9,18 +9,28 @@
 <body>
     
     <h1>Welcome to this Blackjack table and enjoy your stay!</h1>
+
     <div class="player1UI">
         <h2>Dealer:</h2>
         <img class="player1card1" src="https://cdn.pixabay.com/photo/2022/02/23/20/25/card-7031432_640.png" alt="Dealer's cards">
         <img class="player1card2" src="https://cdn.pixabay.com/photo/2022/02/23/20/25/card-7031432_640.png" alt="Dealer's cards">
+        <h2>Dealer's score: <span class="dealer-score"></span></h2>
     </div>
 
-    <button class="draw-cards">Draw cards</button>
+    <div class="center-button">
+    <button class="btn draw-cards">Draw cards</button>
+    </div>
+    <div class="ctr">
+    <button class="btn hit">Hit me!</button>
+    <button class="btn stand">Stand</button>
+    </div>
 
     <div class="player2UI">
         <h2>Your cards:</h2>
         <img class="player2card1" src="https://cdn.pixabay.com/photo/2022/02/23/20/25/card-7031432_640.png" alt="Your cards">
         <img class="player2card2" src="https://cdn.pixabay.com/photo/2022/02/23/20/25/card-7031432_640.png" alt="Your cards">
+        <img class="p2h1" src="" alt="">
+        <h2>Your score: <span class="player-score"></span></h2>
     </div>
 
     <script src="script.js"></script>

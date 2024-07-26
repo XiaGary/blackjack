@@ -6,22 +6,43 @@ html{
 
 h1{
     text-align: center;
-    padding: 25px;
+    padding: 15px;
     font-size: 3em;
 }
 
 .player1UI, .player2UI{
     border: 2px solid black;
-    height: 300px;
+    height: 350px;
     text-align: center;
+    width: auto;
 }
 .draw-cards{
     margin: 50px;
     padding: 15px;
     border-radius: 10%;
-    
+    border: 2px solid black;
+}
+.hit, .stand{
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: 50px;
+    padding: 15px;
+    display: inline;
+}
+.ctr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 img{
     height: 200px;
     margin: 0 25px;
+}
+.center-button{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.hidden{
+    display: none;
 }
